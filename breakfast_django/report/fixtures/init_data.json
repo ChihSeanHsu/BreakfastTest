@@ -1,0 +1,1883 @@
+[
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 1,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-17 16:09:53"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 2,
+      "customer_id": 15,
+      "shipping": 0,
+      "created_at": "2018-01-18 15:41:21"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 3,
+      "customer_id": 3,
+      "shipping": 0,
+      "created_at": "2018-01-18 22:09:10"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 4,
+      "customer_id": 3,
+      "shipping": 0,
+      "created_at": "2018-01-18 22:11:49"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 5,
+      "customer_id": 3,
+      "shipping": 0,
+      "created_at": "2018-01-18 22:15:39"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 6,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-22 16:34:15"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 8,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-22 18:57:28"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 10,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-23 16:43:59"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 11,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-24 17:49:04"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 12,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-01-29 19:27:11"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 14,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-29 00:34:19"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 15,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 14:12:04"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 16,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 18:05:31"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 17,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 18:08:32"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 18,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 20:17:08"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 27,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 20:58:34"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 28,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-01-30 21:15:42"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 29,
+      "customer_id": 16,
+      "shipping": 80,
+      "created_at": "2018-01-30 04:17:30"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 30,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-01 12:53:34"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 34,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 14:53:52"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 35,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 15:57:42"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 36,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 18:51:26"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 37,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:01:48"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 46,
+      "customer_id": 12,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:12:49"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 47,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:13:58"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 48,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:15:59"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 49,
+      "customer_id": 8,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:21:02"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 52,
+      "customer_id": 8,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:21:59"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 53,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:26:20"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 54,
+      "customer_id": 8,
+      "shipping": 80,
+      "created_at": "2018-02-01 19:26:38"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 63,
+      "customer_id": 16,
+      "shipping": 80,
+      "created_at": "2018-02-01 20:48:20"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 64,
+      "customer_id": 16,
+      "shipping": 80,
+      "created_at": "2018-02-01 23:01:49"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 65,
+      "customer_id": 16,
+      "shipping": 80,
+      "created_at": "2018-02-02 14:44:40"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 84,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 15:11:06"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 85,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-02 18:27:07"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 86,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 18:44:33"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 87,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 19:00:44"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 88,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 19:11:08"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 89,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 19:15:33"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 90,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 19:35:18"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 91,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 19:49:02"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 92,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 22:03:06"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 94,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-02 22:28:43"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 95,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-03 23:22:40"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 96,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-05 23:54:34"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 97,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 00:04:42"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 98,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:42:51"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 99,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:44:13"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 100,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:45:23"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 101,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:50:38"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 108,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:52:25"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 109,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 01:54:12"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 110,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 02:00:58"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 111,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-05 02:01:38"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 112,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 15:03:26"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 113,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-06 16:11:00"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 114,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 16:20:17"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 115,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 16:22:35"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 116,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 16:25:47"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 117,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-06 16:32:18"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 118,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-06 17:05:08"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 137,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-06 17:18:06"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 138,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-06 17:39:50"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 139,
+      "customer_id": 10,
+      "shipping": 0,
+      "created_at": "2018-02-06 18:00:11"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 140,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 18:09:00"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 141,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 18:14:53"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 142,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 18:21:06"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 143,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 18:36:59"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 144,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 18:49:31"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 145,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 19:04:23"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 146,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 19:10:50"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 147,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 19:51:54"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 148,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 20:02:29"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 154,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-06 20:05:53"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 155,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 20:43:12"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 156,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 21:03:18"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 157,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 21:05:58"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 158,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 21:28:42"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 159,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 00:04:12"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 160,
+      "customer_id": 12,
+      "shipping": 80,
+      "created_at": "2018-02-06 00:05:34"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 161,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 00:08:23"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 162,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-06 00:34:28"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 163,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-07 15:42:42"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 164,
+      "customer_id": 10,
+      "shipping": 80,
+      "created_at": "2018-02-07 15:44:36"
+    }
+  },
+  {
+    "model": "report.Order",
+    "fields": {
+      "order_id": 184,
+      "customer_id": 15,
+      "shipping": 80,
+      "created_at": "2018-02-07 15:50:10"
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 0,
+    "fields": {
+      "order_id": 1,
+      "product_name": "Palladium Desrue Mid",
+      "qty": 5
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 1,
+    "fields": {
+      "order_id": 1,
+      "product_name": "\u6e2c\u8a66\u5546\u54c12",
+      "qty": 4
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 2,
+    "fields": {
+      "order_id": 2,
+      "product_name": "\u6e2c\u8a66\u6253\u5305\u7d44\u54081",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 3,
+    "fields": {
+      "order_id": 2,
+      "product_name": "Palladium Desrue Mid",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 4,
+    "fields": {
+      "order_id": 2,
+      "product_name": "\u6e2c\u8a66\u5546\u54c12",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 5,
+    "fields": {
+      "order_id": 3,
+      "product_name": "Palladium Desrue Mid",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 6,
+    "fields": {
+      "order_id": 4,
+      "product_name": "Palladium Desrue Mid",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 7,
+    "fields": {
+      "order_id": 5,
+      "product_name": "Palladium Desrue Mid",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 8,
+    "fields": {
+      "order_id": 6,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 9,
+    "fields": {
+      "order_id": 6,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)-\u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 10,
+    "fields": {
+      "order_id": 8,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 11,
+    "fields": {
+      "order_id": 8,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)-\u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 12,
+    "fields": {
+      "order_id": 8,
+      "product_name": "[Prize Snack] \u6cf0\u570b\u4f4e\u71b1\u91cf\u7206\u7c73\u5713\u9905-orange",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 13,
+    "fields": {
+      "order_id": 10,
+      "product_name": "[Prize Snack] \u6cf0\u570b\u4f4e\u71b1\u91cf\u7206\u7c73\u5713\u9905-orange",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 14,
+    "fields": {
+      "order_id": 10,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 15,
+    "fields": {
+      "order_id": 10,
+      "product_name": "[137 degrees] \u958b\u5fc3\u679c\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-08-15}",
+      "qty": 3
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 16,
+    "fields": {
+      "order_id": 10,
+      "product_name": "FREE -  FreeGiftSample",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 17,
+    "fields": {
+      "order_id": 11,
+      "product_name": "\u6e2c\u8a66\u5546\u54c12",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 18,
+    "fields": {
+      "order_id": 11,
+      "product_name": "FREE -  FreeGiftSample",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 19,
+    "fields": {
+      "order_id": 12,
+      "product_name": "[137 degrees] \u958b\u5fc3\u679c\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-08-15}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 20,
+    "fields": {
+      "order_id": 12,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 21,
+    "fields": {
+      "order_id": 12,
+      "product_name": "FREE -  FreeGiftSample",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 22,
+    "fields": {
+      "order_id": 14,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 23,
+    "fields": {
+      "order_id": 14,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 24,
+    "fields": {
+      "order_id": 14,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 4
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 25,
+    "fields": {
+      "order_id": 14,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 26,
+    "fields": {
+      "order_id": 14,
+      "product_name": "[137 degrees] \u958b\u5fc3\u679c\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-08-15}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 27,
+    "fields": {
+      "order_id": 15,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 28,
+    "fields": {
+      "order_id": 16,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 29,
+    "fields": {
+      "order_id": 17,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 30,
+    "fields": {
+      "order_id": 18,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 31,
+    "fields": {
+      "order_id": 18,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 32,
+    "fields": {
+      "order_id": 18,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 33,
+    "fields": {
+      "order_id": 27,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 34,
+    "fields": {
+      "order_id": 27,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 35,
+    "fields": {
+      "order_id": 28,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 36,
+    "fields": {
+      "order_id": 29,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 37,
+    "fields": {
+      "order_id": 29,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 38,
+    "fields": {
+      "order_id": 30,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 39,
+    "fields": {
+      "order_id": 30,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 40,
+    "fields": {
+      "order_id": 34,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 41,
+    "fields": {
+      "order_id": 35,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 42,
+    "fields": {
+      "order_id": 35,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 43,
+    "fields": {
+      "order_id": 36,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 44,
+    "fields": {
+      "order_id": 36,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 45,
+    "fields": {
+      "order_id": 36,
+      "product_name": "FREE -  [\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 46,
+    "fields": {
+      "order_id": 37,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 47,
+    "fields": {
+      "order_id": 37,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 48,
+    "fields": {
+      "order_id": 46,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 49,
+    "fields": {
+      "order_id": 47,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 50,
+    "fields": {
+      "order_id": 47,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 51,
+    "fields": {
+      "order_id": 48,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 52,
+    "fields": {
+      "order_id": 49,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 53,
+    "fields": {
+      "order_id": 52,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 54,
+    "fields": {
+      "order_id": 53,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 55,
+    "fields": {
+      "order_id": 53,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 56,
+    "fields": {
+      "order_id": 54,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 57,
+    "fields": {
+      "order_id": 63,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 58,
+    "fields": {
+      "order_id": 63,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 59,
+    "fields": {
+      "order_id": 64,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 60,
+    "fields": {
+      "order_id": 65,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 61,
+    "fields": {
+      "order_id": 84,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 62,
+    "fields": {
+      "order_id": 85,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 63,
+    "fields": {
+      "order_id": 86,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 64,
+    "fields": {
+      "order_id": 87,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 65,
+    "fields": {
+      "order_id": 88,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 66,
+    "fields": {
+      "order_id": 89,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 67,
+    "fields": {
+      "order_id": 90,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 68,
+    "fields": {
+      "order_id": 91,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 69,
+    "fields": {
+      "order_id": 92,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 70,
+    "fields": {
+      "order_id": 94,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 71,
+    "fields": {
+      "order_id": 95,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 72,
+    "fields": {
+      "order_id": 96,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 73,
+    "fields": {
+      "order_id": 97,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 74,
+    "fields": {
+      "order_id": 98,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 75,
+    "fields": {
+      "order_id": 99,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 3
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 76,
+    "fields": {
+      "order_id": 100,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 77,
+    "fields": {
+      "order_id": 101,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 78,
+    "fields": {
+      "order_id": 101,
+      "product_name": "[137 degrees] \u7121\u52a0\u7cd6\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 79,
+    "fields": {
+      "order_id": 108,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 80,
+    "fields": {
+      "order_id": 109,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 4
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 81,
+    "fields": {
+      "order_id": 110,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 82,
+    "fields": {
+      "order_id": 111,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 83,
+    "fields": {
+      "order_id": 112,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 84,
+    "fields": {
+      "order_id": 113,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 85,
+    "fields": {
+      "order_id": 114,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 86,
+    "fields": {
+      "order_id": 115,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 87,
+    "fields": {
+      "order_id": 116,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 88,
+    "fields": {
+      "order_id": 117,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 89,
+    "fields": {
+      "order_id": 118,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 90,
+    "fields": {
+      "order_id": 137,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 91,
+    "fields": {
+      "order_id": 138,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 92,
+    "fields": {
+      "order_id": 139,
+      "product_name": "[Prize Snack] \u7206\u7c73\u5713\u9905-\u9e7d\u5473\u7c73\u8106\u9905 (80g/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-28}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 93,
+    "fields": {
+      "order_id": 140,
+      "product_name": "[Prize Snack] \u7206\u7c73\u5713\u9905-\u9e7d\u5473\u7c73\u8106\u9905 (80g/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-28}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 94,
+    "fields": {
+      "order_id": 141,
+      "product_name": "[\u6771\u548c\u88fd\u6cb9] \u7121\u52a0\u7cd6\u539f\u5473\u82b1\u751f\u91ac (180g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 95,
+    "fields": {
+      "order_id": 142,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 96,
+    "fields": {
+      "order_id": 143,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 97,
+    "fields": {
+      "order_id": 144,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 98,
+    "fields": {
+      "order_id": 145,
+      "product_name": "[Prize Snack] \u7206\u7c73\u5713\u9905-\u9e7d\u5473\u7c73\u8106\u9905 (80g/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-28}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 99,
+    "fields": {
+      "order_id": 146,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 100,
+    "fields": {
+      "order_id": 147,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 3
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 101,
+    "fields": {
+      "order_id": 147,
+      "product_name": "[Prize Snack] \u7206\u7c73\u5713\u9905-\u9e7d\u5473\u7c73\u8106\u9905 (80g/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-28}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 102,
+    "fields": {
+      "order_id": 147,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 103,
+    "fields": {
+      "order_id": 148,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 104,
+    "fields": {
+      "order_id": 148,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 105,
+    "fields": {
+      "order_id": 154,
+      "product_name": "[Prize Snack] \u7206\u7c73\u5713\u9905-\u9e7d\u5473\u7c73\u8106\u9905 (80g/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-28}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 106,
+    "fields": {
+      "order_id": 155,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 107,
+    "fields": {
+      "order_id": 156,
+      "product_name": "hh",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 108,
+    "fields": {
+      "order_id": 156,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 109,
+    "fields": {
+      "order_id": 156,
+      "product_name": "[\u6771\u548c\u88fd\u6cb9] \u7121\u52a0\u7cd6\u539f\u5473\u82b1\u751f\u91ac (180g/\u7f50)",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 110,
+    "fields": {
+      "order_id": 157,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 111,
+    "fields": {
+      "order_id": 158,
+      "product_name": "[\u6771\u548c\u88fd\u6cb9] \u82b1\u751f\u91ac \u5fae\u751c (180g/\u7f50)",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 112,
+    "fields": {
+      "order_id": 159,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 113,
+    "fields": {
+      "order_id": 160,
+      "product_name": "[Aronia] \u6709\u6a5f\u91ce\u6afb\u8393\u679c\u91ac(\u7121\u6dfb\u52a0\u7cd6) (225g/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-09-22}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 114,
+    "fields": {
+      "order_id": 161,
+      "product_name": "hh",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 115,
+    "fields": {
+      "order_id": 161,
+      "product_name": "[137 degrees] \u6e2c\u8a66\u5805\u679c\u5976",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 116,
+    "fields": {
+      "order_id": 162,
+      "product_name": "[137 degrees] \u6e2c\u8a66\u5805\u679c\u5976",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 117,
+    "fields": {
+      "order_id": 162,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 118,
+    "fields": {
+      "order_id": 163,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 3
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 119,
+    "fields": {
+      "order_id": 164,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 120,
+    "fields": {
+      "order_id": 164,
+      "product_name": "[137 degrees] \u6e2c\u8a66\u5805\u679c\u5976",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 121,
+    "fields": {
+      "order_id": 184,
+      "product_name": "[137 degrees] \u5496\u5561\u62ff\u9435\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-10-05}",
+      "qty": 1
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 122,
+    "fields": {
+      "order_id": 184,
+      "product_name": "[137 degrees] \u539f\u5473\u674f\u4ec1\u5805\u679c\u5976 (180ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2018-09-11}",
+      "qty": 2
+    }
+  },
+  {
+    "model": "report.OrderItem",
+    "pk": 123,
+    "fields": {
+      "order_id": 184,
+      "product_name": "[\u6fb3\u601d] \u521d\u69a8\u6930\u5b50\u6cb9 (650ml/\u7f50) {\u8cde\u5473\u671f\u9650: 2019-08-23}",
+      "qty": 1
+    }
+  }
+]

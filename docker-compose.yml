@@ -1,0 +1,19 @@
+version: "3"
+services:
+  django:
+    build: .
+    image: django
+    working_dir: /var/www/django
+    environment:
+      - "TZ=Asia/Taipei"
+    ports:
+      - "8000:80/tcp"
+    volumes:
+      - "${WORKDIR}breakfast_django:/var/www/django"
+      - "${WORKDIR}logs:/var/log/apache2"
+    command: >
+      bash -c "python3.6 manage.py migrate &&
+        python3.6 manage.py loaddata init_data.json
+        service apache2 start &&
+        tail -f /var/log/apache2/error.log"
+  

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Breakfast test</title>
+    <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.min.js"></script>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    
+</head>
+<body>
+    
+    <div class="mdc-layout-grid--align-center">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell">
+                <div id="pieChart" style="width: 400px;height: 400px;"></div>
+                <br>
+                <table id="shippingTable">
+                        <thead>
+                            <tr>
+                                {% for shipping_obj in shipping_rate %}
+                                <th>{{ shipping_obj.name }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {% for shipping_obj in shipping_rate %}
+                                <td>{{shipping_obj.value}}</td>
+                                {% endfor %}
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div id="barChart" style="width: 800px;height: 400px;"></div>
+                <br>
+                <table id="productTable" style="width: 800px; height: 50px" >
+                    <thead>
+                        <tr>
+                            <th>{{ product_sum.name.0 }}</th>
+                            <th>{{ product_sum.name.1 }}</th>
+                            <th>{{ product_sum.name.2 }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ product_sum.value.0 }}</td>
+                            <td>{{ product_sum.value.1 }}</td>
+                            <td>{{ product_sum.value.2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__inner">
+            <div id="cohortChart" style="width: 1000px;height: 500px;"></div>
+        </div>
+        <div class="mdc-layout-grid__inner">
+            <div id="cohortTable" style="width: 1000px;height: 500px;"></div>
+        </div>
+        
+    </div>
+    
+    
+    <script type="text/javascript">
+        $(document).ready( function () {
+            var option = {
+                paging: false,
+                searching: false
+            }
+            $('#shippingTable').DataTable(option);
+            $('#productTable').DataTable(option);
+        } );
+        var cohortChart = echarts.init(document.getElementById('cohortChart'));
+        var cohortTable = echarts.init(document.getElementById('cohortTable'));
+        var pieChart = echarts.init(document.getElementById('pieChart'));
+        var barChart = echarts.init(document.getElementById('barChart'));
+
+        var cohortIndex = {{ cohort.index | safe }};
+        var cohortCol = cohortIndex.map((item, index) => {
+            return `Day${index}`
+        });
+        cohortCol.splice(cohortCol.length - 1, 1);
+        var barIndex = {{ product_sum.name | safe }};
+        
+        var cohortData = {{ cohort.value | safe }};
+        var cohortTableData = cohortData.reduce((rowArr, rowItem, rowIndex) => {
+            return rowArr.concat(rowItem.reduce((colArr, colItem, colIndex) => {
+                colArr.push([colIndex, rowIndex, colItem ])
+                return colArr
+            }, []))
+        }, []);
+        var pieChartData = {{ shipping_rate | safe }};
+        var barChartData = {{ product_sum.value | safe }};
+
+        
+        var cohortChartOption = {
+            title: {
+                text: 'Cohort'
+            },
+            xAxis: {
+                type: 'category',
+                data: cohortCol
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                data: cohortData[cohortData.length - 1],
+                type: 'line'
+            }]
+        }
+        var cohortTableOption = {
+            tooltip: {
+                position: 'top'
+            },
+            animation: false,
+            grid: {
+                height: '50%',
+                y: '10%'
+            },
+            xAxis: {
+                type: 'category',
+                data: cohortCol,
+                position: 'top',
+                splitArea: {
+                    show: true
+                }
+            },
+            yAxis: {
+                type: 'category',
+                data: cohortIndex,
+                splitArea: {
+                    show: true
+                }
+            },
+            visualMap: {
+                min: 0,
+                show: false,
+                max: 10,
+                calculable: true,
+                orient: 'horizontal',
+                left: 'center',
+                bottom: '15%'
+            },
+            textStyle: {
+                color: 'black'
+            },
+            series: [{
+                name: 'Punch Card',
+                type: 'heatmap',
+                data: cohortTableData,
+                label: {
+                    normal: {
+                        show: true
+                    },
+                },
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }]
+        };
+        var pieChartOption = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            title: {
+                text: '運費比例'
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                data: pieChartData.map(item => {
+                    return item.name
+                })
+            },
+            series: [
+                {
+                    name: '運費比例',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
+                        },
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '30',
+                                fontWeight: 'bold'
+                            }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: pieChartData
+                }
+            ]
+        };
+        var barChartOption = {
+            title: {
+                text: '銷售排行'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'value',
+                boundaryGap: [0, 0.01]
+            },
+            yAxis: {
+                type: 'category',
+                data: barIndex
+            },
+            series: [
+                {
+                    name: 'sum',
+                    type: 'bar',
+                    data: barChartData
+                }
+            ]
+        };
+        cohortChart.setOption(cohortChartOption);
+        cohortTable.setOption(cohortTableOption);
+        pieChart.setOption(pieChartOption);
+        barChart.setOption(barChartOption);
+
+        
+    </script>
+</body>
+
+</html>
