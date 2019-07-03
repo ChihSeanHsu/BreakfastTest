@@ -13,7 +13,7 @@ services:
       - "${WORKDIR}logs:/var/log/apache2"
     command: >
       bash -c "python3.6 manage.py migrate &&
-        python3.6 manage.py loaddata init_data.json
+        python3.6 manage.py loaddata init_data.json &&
         service apache2 start &&
         tail -f /var/log/apache2/error.log"
   
