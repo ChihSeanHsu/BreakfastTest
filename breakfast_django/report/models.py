@@ -9,7 +9,7 @@ class Order(models.Model):
     created_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        db_table = 'order'
+        db_table = 'order_table'
         indexes = [
             models.Index(fields=['customer_id'])
         ]
